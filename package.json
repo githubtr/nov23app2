@@ -1,0 +1,13 @@
+{
+  "name": "nov23app2",
+  "version": "0.0.1",
+  "description": "Sample Node application",
+  "scripts": {
+    "start": "node app.js"
+  },
+  "devDependencies": {
+    "chai": "^3.4.1",
+    "jshint": "^2.8.0",
+    "mocha": "^2.3.4"
+  }
+}

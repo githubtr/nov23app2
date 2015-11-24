@@ -1,0 +1,8 @@
+/.apt_generated/
+/build/
+/node_modules/
+.settings
+.project
+
+
+
