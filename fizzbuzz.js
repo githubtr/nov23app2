@@ -19,4 +19,12 @@ FizzBuzz.prototype.convertToFizzBuzz = function(number) {
 	return number.toString();
 };
 
+FizzBuzz.prototype.convertRangeToFizzBuzz = function(start, end) {
+	var result = [];
+	for (var i = start; i <= end; i++) {
+		result.push(this.convertToFizzBuzz(i));
+	}
+	return result;
+};
+
 module.exports = FizzBuzz;
