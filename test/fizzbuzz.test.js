@@ -1,4 +1,4 @@
-// test script for fizzbuzz functionality
+// test script for fizzbuzz.js
 
 var FizzBuzz = require('../fizzbuzz.js');
 var sinon = require("sinon");
