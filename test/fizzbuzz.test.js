@@ -11,4 +11,21 @@ describe("Fizzbuzz", function() {
 			expect(f.divisibleBy(3, 2)).to.be.eql(false);
 		});
 	});
+	describe("convertToFizzBuzz()", function() {
+		it("when divisible by 3", function() {
+			expect(f.convertToFizzBuzz(3)).to.be.eql("Fizz");
+			expect(f.convertToFizzBuzz(6)).to.be.eql("Fizz");
+		});
+		it("when divisible by 5", function() {
+			expect(f.convertToFizzBuzz(5)).to.be.eql("Buzz");
+			expect(f.convertToFizzBuzz(10)).to.be.eql("Buzz");
+		});
+		it("when divisible by 15", function() {
+			expect(f.convertToFizzBuzz(15)).to.be.eql("FizzBuzz");
+		});
+		it("when not divisible by 3 or 5 or 15 ", function() {
+			expect(f.convertToFizzBuzz(4)).to.be.eql("4");
+			expect(f.convertToFizzBuzz(7)).to.be.eql("7");
+		});
+	});
 });
